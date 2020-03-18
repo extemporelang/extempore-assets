@@ -7,7 +7,8 @@ example files in the main Extempore source tree.
 ## Usage
 
 If you're building Extempore from source, these files will be downloaded
-automatically (as part of the `assets` target in your buildsystem).
+automatically (as part of the `assets` target in your buildsystem) if you
+specify the `-DASSETS=ON` CMake option (`OFF` by default).
 
 If you're not doing it that way for some reason, you need to clone (or download
 a zip of) this repo, name it `assets` and put it in your top-level Extempore
